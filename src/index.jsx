@@ -10,8 +10,8 @@ import {
   mergeConfig,
   subscribe,
 } from '@edx/frontend-platform';
-import { messages as headerMessages } from '@edx/frontend-component-header';
-import { messages as footerMessages } from '@edx/frontend-component-footer';
+import { messages as headerMessages } from '@uarcl/frontend-component-header-uar';
+import { messages as footerMessages } from '@uarcl/frontend-component-footer-uar';
 
 import appMessages from './i18n';
 import App from './App';

@@ -4,8 +4,8 @@ import { shallow } from 'enzyme';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AppProvider } from '@edx/frontend-platform/react';
 
-import Footer from '@edx/frontend-component-footer';
-import Header from '@edx/frontend-component-header';
+import Footer from '@uarcl/frontend-component-footer-uar';
+import Header from '@uarcl/frontend-component-header-uar';
 
 import { routePath } from 'data/constants/app';
 import store from 'data/store';
@@ -25,10 +25,10 @@ jest.mock('@edx/frontend-platform/react', () => ({
 jest.mock('data/constants/app', () => ({
   routePath: '/:courseId',
 }));
-jest.mock('@edx/frontend-component-footer', () => 'Footer');
+jest.mock('@uarcl/frontend-component-footer-uar', () => 'Footer');
 jest.mock('data/store', () => 'testStore');
 jest.mock('containers/GradebookPage', () => 'GradebookPage');
-jest.mock('@edx/frontend-component-header', () => 'Header');
+jest.mock('@uarcl/frontend-component-header-uar', () => 'Header');
 
 const logo = 'fakeLogo.png';
 let el;

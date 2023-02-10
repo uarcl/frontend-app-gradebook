@@ -7,8 +7,8 @@ import {
   mergeConfig,
   subscribe,
 } from '@edx/frontend-platform';
-import { messages as headerMessages } from '@edx/frontend-component-header';
-import { messages as footerMessages } from '@edx/frontend-component-footer';
+import { messages as headerMessages } from '@uarcl/frontend-component-header-uar';
+import { messages as footerMessages } from '@uarcl/frontend-component-footer-uar';
 
 import appMessages from './i18n';
 import App from './App';
@@ -23,10 +23,10 @@ jest.mock('@edx/frontend-platform', () => ({
   mergeConfig: jest.fn(),
   subscribe: jest.fn(),
 }));
-jest.mock('@edx/frontend-component-header', () => ({
+jest.mock('@uarcl/frontend-component-header-uar', () => ({
   messages: ['some', 'messages'],
 }));
-jest.mock('@edx/frontend-component-footer', () => ({
+jest.mock('@uarcl/frontend-component-footer-uar', () => ({
   messages: ['some', 'messages'],
 }));
 jest.mock('./App', () => 'App');
