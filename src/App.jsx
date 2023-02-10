@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AppProvider } from '@edx/frontend-platform/react';
 
 import Footer from '@uarcl/frontend-component-footer-uar';
-import Header from '@uarcl/frontend-component-header-uar';
+import { LearningHeader as Header } from '@uarcl/frontend-component-header-uar';
 
 import { routePath } from 'data/constants/app';
 import store from 'data/store';
