@@ -32,7 +32,7 @@
   "dependencies": {
     "@edx/brand": "npm:@edx/brand-edx.org@^1.3.2",
     "@uarcl/frontend-component-footer-uar": "1.0.31",
-    "@uarcl/frontend-component-header-uar": "1.0.26",
+    "@uarcl/frontend-component-header-uar": "1.0.27",
     "@edx/frontend-platform": "2.5.0",
     "@edx/paragon": "19.6.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
